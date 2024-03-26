@@ -1,0 +1,30 @@
+/* Estilos para o container principal */
+body {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Estilos para cada cidade */
+.city {
+    width: 30%;
+    margin: 10px;
+    padding: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Estilos para os links */
+.city a {
+    text-decoration: none;
+    color: #0074D9;
+    font-weight: bold;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+}
