@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>galeria defotos</title>
+    
+</head>
+<body>
+    <h1>galeria de fotos</h1>
+    <style>
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(3, 150px);
+            grid-gap: 10px;
+        }
+        .gallery-item {
+            width: 150px;
+            height: 150px;
+            position: relative;
+            overflow: hidden;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        .gallery-item .back {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: rotateY(180deg);
+            transition: transform 0.5s ease;
+        }
+        .gallery-item:hover .back {
+            transform: rotateY(0deg);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="gallery-container">
+        <div class="gallery-item">
+            <img src="imagens/img1.jpg" alt="Image">
+            <div class="back">paisagem1</div>
+        </div>
+        <div class="gallery-item">
+            <img src="imagens/img2.jpg" alt="Image">
+            <div class="back">paisagem2</div>
+        </div>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="imagens/img3.jpg" alt="Image">
+                <div class="back">paisagem3</div>
+            </div>
+            <div class="gallery-item">
+                <img src="imagens/img4.jpg" alt="Image">
+                <div class="back">paisagem4</div>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="imagens/img5.jpg" alt="Image">
+                    <div class="back">paisagem5</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="imagens/img6.jpg" alt="Image">
+                    <div class="back">paisagem6</div>
+                </div>
+                
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="imagens/img7.jpg" alt="Image">
+                        <div class="back">paisagem7</div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="imagens/img8.jpg" alt="Image">
+                        <div class="back">paisagem8</div>
+                    </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="imagens/img9.jpg" alt="Image">
+                        <div class="back">paisagem9</div>
+                    </div>
+                    <div class="gallery-container">
+                        <div class="gallery-item">
+                            <img src="imagens/img10.jpg" alt="Image">
+                            <div class="back">paissagem10</div>
+                        </div>
+                        <div class="gallery-item">
+                            <img src="imagens/img11.jpg" alt="Image">
+                            <div class="back">paissagem11</div>
+                        </div>
+                        <div class="gallery-container">
+                            <div class="gallery-item">
+                                <img src="imagens/img12.jpg" alt="Image">
+                                <div class="back">paissagem12</div>
+                            </div>
+                            
+                                
+        
+    
+</body>
+</html>
