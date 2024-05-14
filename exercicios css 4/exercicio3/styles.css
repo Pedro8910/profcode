@@ -1,0 +1,41 @@
+/* Estilos para o cabeçalho */
+.header {
+    background-color: red;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para os planos */
+.plan {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.oi {
+    background-color: #efefef;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #444;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
