@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Registro Hospitalar</title>
+</head>
+<body>
+    <form action="/submit-form" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="registro_hospitalar">Registro Hospitalar:</label>
+        <input type="text" id="registro_hospitalar" name="registro_hospitalar"><br><br>
+
+        <label for="data_inclusao">Data de Inclusão:</label>
+        <input type="date" id="data_inclusao" name="data_inclusao"><br><br>
+
+        <label for="data_nascimento">Data de Nascimento:</label>
+        <input type="date" id="data_nascimento" name="data_nascimento"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="genero">Gênero:</label>
+        <select id="genero" name="genero">
+            <option value="feminino">Feminino</option>
+            <option value="masculino">Masculino</option>
+            <option value="outro">Outro</option>
+        </select><br><br>
+
+        <label for="raca">Raça Declarada:</label>
+<select id="raca" name="raca">
+    <option value="branca">Branca</option>
+    <option value="negra">Negra</option>
+    <option value="parda">Parda</option>
+    <option value="amarela">Amarela</option>
+    <option value="indigena">Indígena</option>
+    <option value="outros">Outros</option>
+</select>
+<br>
+<label for="como_soube_pesquisa">Como você ficou sabendo dessa pesquisa?</label>
+<select id="como_soube_pesquisa" name="como_soube_pesquisa">
+    <option value="amigos">Amigos</option>
+    <option value="internet">Internet</option>
+    <option value="tv">TV</option>
+    <option value="familiares">Familiares</option>
+</select>
+<br>
+<input type="submit" value="Enviar">
+
+</body>
+</html>
