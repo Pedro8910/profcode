@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#cabeçalho {
+    height: 500px;
+}
+
+.container__contato {
+    text-align: center;
+}
+
+.container__subtexto {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 200px;
+}
+
+body {
+    color: #a2a2a2;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 16pt;
+    font-weight: 400;
+    line-height: 1.75em;
+    background-color: #fff;
+}
+
+header {
+    background-attachment: fixed;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 40px 60px 0 0;
+    height: 100%;
+}
+
+header img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 0.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+#one p,
+#three p {
+    margin-top: 30px;
+}
+
+#two h2 {
+    width: 100%;
+}
+
+.imagem {
+    width: 100%;
+    margin: 10px;
+}
+
+.imagem img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.imagem h3 {
+    font-size: 1em;
+}
+
+.imagem p {
+    font-size: 0.7em;
+}
+
+.button {
+    border-radius: 10px;
+    border: solid 3px #efefef;
+    color: #787878;
+    display: inline-block;
+    font-weight: 400;
+    height: 80px;
+    line-height: 80px;
+    min-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #e1dede;
+    margin: 30px 0;
+}
+
+header h1 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25em;
+    line-height: 1.75em;
+    margin: 0;
+    font-weight: 100;
+}
+
+header h1 a {
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+header h1 strong {
+    color: #fff;
+}
+
+#three form,
+#three .address {
+    width: 45%;
+    margin-top: 50px;
+}
+
+#three input,
+#three textarea {
+    background: #f7f7f7;
+    border-radius: 10px;
+    outline: 0;
+    border: none;
+    padding: 20px;
+    width: 100%;
+    font-size: 12pt;
+    margin-bottom: 15px;
+}
+
+#three a {
+    text-decoration: none;
+    color: #787878;
+}
+
+.address {
+    margin-left: 50px;
+    font-size: 14pt;
+    line-height: 1.5;
+}
+
+.address div {
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+    #footer {
+        color: white;
+        background-color: white;
+    }
+
+    #footer a {
+        color: white;
+    }
+
+    header {
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+
+    footer {
+        color: white;
+        background-color: blue;
+    }
+
+    #footer a {
+        color: white;
+    }
+
+    #maisinfo {
+        align-items: center;
+    }
+}
