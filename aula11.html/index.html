@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="icons8-bootstrap-color-32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exercício Bootstrap</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+</head>
+
+<body>
+    <header id="idheader" class="bg-dark text-white">
+        <section class="container d-flex justify-content-between align-items-center py-3">
+            <div class="h5 mb-0">
+                Alcides T. Barboza Jr.
+            </div>
+            <nav class="d-flex">
+                <a href="#inicio" class="text-white mx-2">Início</a>
+                <a href="#portfolio" class="text-white mx-2">Portfólio</a>
+                <a href="#servicos" class="text-white mx-2">Serviços</a>
+                <a href="#sobre" class="text-white mx-2">Sobre</a>
+                <button class="btn btn-primary mx-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#ExemploDeCollapse">Mais</button>
+            </nav>
+        </section>
+    </header>
+
+    <div class="collapse" id="ExemploDeCollapse">
+        <div class="bg-primary w-75 m-5 border rounded shadow h-100">
+            <div class="card card-body bg-primary border rounded shadow">
+                <br>
+                <h5 class="card-title">Desenvolvedor</h5>
+                <section>
+                    <h3>Sistemas para Web, apps, jogos e mais.</h3>
+                </section>
+                <br>
+                <a href="http://www.cruzeirodosul.edu.br" class="text-white">Universidade Cruzeiro do Sul</a>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <a id="irTopo" href="#idheader" class="btn btn-secondary my-3">^topo</a>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <h3 class="col-12 text-center my-4">Portfólio</h3>
+                <p class="col-12">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolore sed esse iure et animi quis
+                    molestiae non quisquam in. Dolore deleniti quaerat illum praesentium aperiam enim adipisci hic
+                    veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolore sed esse iure et
+                    animi quis molestiae non quisquam in. Dolore deleniti quaerat illum praesentium aperiam enim
+                    adipisci hic veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolore sed esse iure et
+                    animi quis molestiae non quisquam in. Dolore deleniti quaerat illum praesentium aperiam enim
+                    adipisci hic veniam.
+                </p>
+            </div>
+        </div>        
+    </section>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <img class="col-sm-3 mb-3" src="img/shader.jpg">
+            <img class="col-sm-3 mb-3" src="img/tabuleiro.jpg">
+            <img class="col-sm-3 mb-3" src="img/jogo1.png">
+            <img class="col-sm-3 mb-3" src="img/app.webp">
+            <img class="col-sm-3 mb-3" src="img/tabuleiro.jpg">
+            <img class="col-sm-3 mb-3" src="img/jogo1.png">
+            <img class="col-sm-3 mb-3" src="img/shader.jpg">
+            <img class="col-sm-3 mb-3" src="img/app.webp">
+        </div>
+    </div>
+
+    <br>
+    <hr class="estilolinha">
+
+    <section id="servicos">
+        <h3 class="title text-center my-4">Serviços</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fa fa-code fa-3x"></i>
+                    <h4>Programação</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum
+                        ultrices vitae pulvinar velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et
+                        ipsum bibendum ultrices vitae pulvinar velit.
+                    </p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fa fa-cubes fa-3x"></i>
+                    <h4>Sistemas</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum
+                        ultrices vitae pulvinar velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et
+                        ipsum bibendum ultrices vitae pulvinar velit.
+                    </p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fa fa-gamepad fa-3x"></i>
+                    <h4>Games</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum
+                        ultrices vitae pulvinar velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et
+                        ipsum bibendum ultrices vitae pulvinar velit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="estilolinha">
+
+    <section id="sobre">
+        <h3 class="title text-center my-4">Conhecimentos</h3>
+        <p class="quote text-center">
+            Passe o mouse pela figura abaixo, para conhecer os %
+            de conhecimento em cada assunto mostrado.
+        </p>
+
+        <div id="view" class="text-center mb-4">
+            <span class="fa fa-eye fa-2x"></span>
+        </div>
+
+        <section class="container" id="skills">
+            <div class="row">
+                <div class="col-md-6">
+                    <div>
+                        JavaScript
+                        <div class="barra bg-info text-white">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                    <div>
+                        HTML
+                        <div class="barra bg-info text-white">
+                            <span>100%</span>
+                        </div>
+                    </div>
+                    <div>
+                        CSS
+                        <div class="barra bg-info text-white">
+                            <span>30%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        C++
+                        <div class="barra bg-info text-white">
+                            <span>100%</span>
+                        </div>
+                    </div>
+                    <div>
+                        Python
+                        <div class="barra bg-info text-white">
+                            <span>100%</span>
+                        </div>
+                    </div>
+                    <div>
+                        Java
+                        <div class="barra bg-info text-white">
+                            <span>25%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
