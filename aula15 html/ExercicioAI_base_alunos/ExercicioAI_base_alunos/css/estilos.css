@@ -1,0 +1,63 @@
+article{
+    margin-top: 5%;
+}
+
+.mapa{
+   
+    display: flex;
+    float: left;
+    flex-direction: row;
+    padding-left: 5%;
+}
+.tabela{
+    display: flex;
+    max-width: 600px;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+header{
+    margin: 2%;
+}
+figcaption{
+    text-align: center;
+}
+footer{
+margin-top: 16%;
+display: flex;
+text-align: center;
+background-color: aquamarine;
+padding: 7px;
+margin-bottom: 30px;
+}
+.cor{
+    background-color: rgba(128, 128, 128, 0.322);
+}
+@media screen and (max-width:768px){
+.mapa{
+    display: flex;
+    margin-right: 22px;
+    flex-wrap: wrap;
+    max-width: 768px;
+}
+.tabela{
+    display: flex;
+    margin-right: 22px;
+    flex-wrap: wrap;
+    max-width: 768px;
+}
+header{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 2%;
+    padding-left: 12%;
+}
+article{
+    padding-left: 2%;
+}
+footer{
+    margin-bottom: 72px;
+}
+header h1{
+    font-size: 26px;
+}
+}
