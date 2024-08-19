@@ -1,0 +1,32 @@
+resposta 
+
+1) A internet surgiu no final da década de 1960, durante a Guerra Fria.
+
+2) O nome inicial da rede era ARPANET.
+
+3) A ARPANET inicialmente interligava quatro computadores em 1969.
+
+
+4) O primeiro protocolo usado foi o NCP (Network Control Protocol).
+
+
+5) O TCP foi criado por Vint Cerf e Bob Kahn.
+
+
+6) O IP também foi criado por Vint Cerf e Bob Kahn.
+
+
+7) "WWW" significa World Wide Web, e foi criado por Tim Berners-Lee.
+
+
+8) A conexão entre os continentes é feita principalmente por meio de cabos submarinos de fibra ótica.
+
+
+9) O Brasil fez sua primeira conexão à internet em 1988.
+
+
+10) Tim Berners-Lee criou:
+
+O HTML (Hypertext Markup Language)
+O HTTP (Hypertext Transfer Protocol)
+O conceito de URLs (Uniform Resource Locators)
