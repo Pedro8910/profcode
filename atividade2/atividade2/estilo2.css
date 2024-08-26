@@ -1,0 +1,92 @@
+/* Customização da cor verde */
+body {
+    background: linear-gradient(to bottom, #c8e6c9, #a5d6a7); /* Gradiente suave de verde */
+    font-family: Arial, sans-serif; /* Fonte do corpo */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilos para o título */
+h1 {
+    color: #2e7d32; /* Cor do título */
+    text-align: center;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    text-shadow: 1px 1px 0 #66bb6a, -1px -1px 0 #66bb6a; /* Contorno verde */
+}
+
+/* Estilos para o contêiner do formulário */
+.container {
+    background-color: #a5d6a7; /* Cor de fundo verde para o contêiner */
+    padding: 30px; /* Adicionado padding ao contêiner do formulário */
+    border-radius: 8px; /* Bordas arredondadas do contêiner */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para campos de entrada, rótulos e botões */
+.form-control,
+.form-check-label,
+.btn,
+textarea {
+    border: none; /* Removido contorno */
+    border-radius: 4px; /* Bordas arredondadas */
+    transition: box-shadow 0.3s; /* Efeito de transição */
+    padding: 10px; /* Adicionado padding para os campos de entrada */
+    background-color: white; /* Fundo branco para os campos de entrada */
+}
+
+/* Efeitos de foco nos campos de entrada */
+.form-control:focus,
+textarea:focus {
+    box-shadow: 0 0 5px #66bb6a; /* Somente sombra ao focar */
+}
+
+/* Estilos para inputs de checkbox */
+.form-check-input:checked {
+    background-color: #2e7d32; /* Cor de fundo quando checado */
+    border-color: #2e7d32; /* Mantido para indicar seleção */
+}
+
+/* Estilos para botões */
+.btn {
+    background-color: #2e7d32; /* Cor de fundo do botão */
+    color: white; /* Cor do texto no botão */
+    padding: 10px 15px; /* Padding para os botões */
+    border: none; /* Sem bordas */
+    border-radius: 4px; /* Bordas arredondadas para os botões */
+    cursor: pointer; /* Cursor pointer para os botões */
+    transition: background-color 0.3s; /* Efeito de transição para o botão */
+    font-weight: bold; /* Texto em negrito */
+    text-shadow: 1px 1px 0 #66bb6a, -1px -1px 0 #66bb6a; /* Contorno verde para o texto do botão */
+}
+
+/* Efeito hover para o botão primário */
+.btn:hover {
+    background-color: #66bb6a; /* Cor ao passar o mouse */
+}
+
+/* Estilos para botão secundário */
+.btn-secondary {
+    background-color: #e0e0e0; /* Cor de fundo para o botão de limpar */
+    color: #333; /* Cor do texto para o botão de limpar */
+    text-shadow: 1px 1px 0 #66bb6a, -1px -1px 0 #66bb6a; /* Contorno verde para o texto do botão */
+}
+
+/* Efeito hover para o botão secundário */
+.btn-secondary:hover {
+    background-color: #bdbdbd; /* Efeito hover para o botão de limpar */
+}
+
+/* Estilos para labels e margens nos grupos de formulário */
+label {
+    font-weight: bold; /* Textos das labels em negrito */
+    text-shadow: 1px 1px 0 #66bb6a, -1px -1px 0 #66bb6a; /* Contorno verde */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Espaçamento entre os grupos de formulário */
+}
+
+/* Estilos para textarea */
+textarea {
+    resize: vertical; /* Permite redimensionar apenas na vertical */
+}

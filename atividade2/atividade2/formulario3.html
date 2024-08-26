@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Geral</title>
+    <link rel="stylesheet" href="estilo2.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro Geral</h1>
+        <form action="#" method="post">
+            <fieldset class="border p-3">
+                <legend class="w-auto">Dados Pessoais</legend>
+                <div class="form-group">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" class="form-control" id="nome" name="nome_completo" required aria-label="Nome Completo">
+                </div>
+                <div class="form-group">
+                    <label for="profissao">Profissão:</label>
+                    <input type="text" class="form-control" id="profissao" name="profissao" required aria-label="Profissão">
+                </div>
+                <div class="form-group">
+                    <label for="localizacao">Localização:</label>
+                    <input type="text" class="form-control" id="localizacao" name="localizacao" required aria-label="Localização">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" class="form-control" id="email" name="email" required aria-label="E-mail">
+                </div>
+                <div class="form-group">
+                    <label for="rua">Rua:</label>
+                    <input type="text" class="form-control" id="rua" name="rua" aria-label="Rua">
+                </div>
+            </fieldset>
+
+            <fieldset class="border p-3 mt-3">
+                <legend class="w-auto">Faixa Etária</legend>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="faixa1" name="faixa_etaria" value="ate20" required>
+                    <label class="form-check-label" for="faixa1">Até 20 anos</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="faixa2" name="faixa_etaria" value="20a30" required>
+                    <label class="form-check-label" for="faixa2">Mais de 20 até 30 anos</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="faixa3" name="faixa_etaria" value="30a40" required>
+                    <label class="form-check-label" for="faixa3">Mais de 30 até 40 anos</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="faixa4" name="faixa_etaria" value="40a50" required>
+                    <label class="form-check-label" for="faixa4">Mais de 40 até 50 anos</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="faixa5" name="faixa_etaria" value="50a60" required>
+                    <label class="form-check-label" for="faixa5">Mais de 50 até 60 anos</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="faixa6" name="faixa_etaria" value="maisde60" required>
+                    <label class="form-check-label" for="faixa6">Mais de 60 anos</label>
+                </div>
+            </fieldset>
+
+            <fieldset class="border p-3 mt-3">
+                <legend class="w-auto">Esportes que Pratica</legend>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="futebol_campo" name="esportes[]" value="futebol_campo">
+                    <label class="form-check-label" for="futebol_campo">Futebol de Campo</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="futebol_salao" name="esportes[]" value="futebol_salao">
+                    <label class="form-check-label" for="futebol_salao">Futebol de Salão</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="futebol_society" name="esportes[]" value="futebol_society">
+                    <label class="form-check-label" for="futebol_society">Futebol Society</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="voley_quadra" name="esportes[]" value="voley_quadra">
+                    <label class="form-check-label" for="voley_quadra">Vôlei de Quadra</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="voley_praia" name="esportes[]" value="voley_praia">
+                    <label class="form-check-label" for="voley_praia">Vôlei de Praia</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="natacao_piscina" name="esportes[]" value="natacao_piscina">
+                    <label class="form-check-label" for="natacao_piscina">Natação em Piscina</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="natacao_mar" name="esportes[]" value="natacao_mar">
+                    <label class="form-check-label" for="natacao_mar">Natação em Mar Aberto</label>
+                </div>
+            </fieldset>
+
+            <div class="form-group mt-3">
+                <label for="comentarios">Comentários:</label>
+                <textarea class="form-control" id="comentarios" name="comentarios" rows="4" aria-label="Comentários"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-success">Enviar</button>
+            <button type="reset" class="btn btn-secondary">Limpar</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
