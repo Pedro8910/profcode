@@ -1,0 +1,28 @@
+questões
+
+
+
+1) EM qual período histórico a internet surgiu?
+
+2) A agência militar americana DARPA foi a responsável pelo inicio dos estudos que deram
+origem á internet logo no inicio, a rede teve  um nome você sabe qual foi?
+
+3) A primeira versão da rede que deu origem á internet interligava quantos 
+computadores?
+
+4) Qual o nome do primeiro protocolo usado na transmissão de dados entre os
+computadores?
+
+
+5) Qual o nome do pesquisador que criou o TCP(transfer control protocol)?
+
+6) qual o nome do criador do IP(internet protocol)?
+
+7) O que significa a sigla "www" e qual o nome do seu criador?
+
+8) como é feita a conexão entre os continemtes nos dias de hoje?
+
+9) EM que ano o brasil fez sua primeira conexão?
+
+10) O cientista inglês Tim bernes-lee foi responsável pela criação de três coisas muito
+importantes para a internet. cite quais foram: 
