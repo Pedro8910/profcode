@@ -1,0 +1,58 @@
+/* Cor de fundo do corpo da página */
+body {
+    background-color: #003366;
+}
+
+/* Container principal com largura fixa */
+#principal {
+    width: 757px;
+    margin: 0 auto;
+}
+
+/* Estilo para títulos h2 */
+h2 {
+    color: #990000;
+}
+
+/* Estilo para a classe 'data' (datas) */
+.data {
+    color: #999999;
+    font-size: 8pt;
+}
+
+/* Estilo para o cabeçalho com imagem de fundo */
+#topo_geral {
+    background-image: url(imagens/topo.JPG);
+    height: 62px;
+    background-repeat: no-repeat;
+}
+
+/* Estilo para os parágrafos dentro do artigo */
+article > p {
+    text-align: justify;
+}
+
+/* Estilo para o container de artigos */
+article {
+    background-color: #fff;
+    padding: 50px;
+}
+
+/* Remover a estilização padrão da lista */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para itens de lista em linha */
+li {
+    display: inline;
+}
+
+/* Estilo para a barra de navegação */
+nav {
+    background-color: #003300;
+    color: #ffffff;
+    padding: 5px;
+}

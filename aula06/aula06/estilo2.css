@@ -1,0 +1,75 @@
+/* Estilos básicos mantidos */
+
+body {
+    background-color: #003366;
+}
+
+#principal {
+    width: 757px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #990000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #003300;
+    color: #ffffff;
+    padding: 5px;
+}
+
+/* Estilo da galeria */
+#galeria {
+    margin-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.grid-item p {
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Rodapé */
+#rodape {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #003300;
+    color: white;
+}
